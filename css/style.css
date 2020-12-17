@@ -1,0 +1,77 @@
+:root{
+    --color-bg-title-frame: #273c75;
+    --color-shadow-frame:#A4A4A4;
+    --color-frame: #fafafa;
+    --color-text: #fafafa;
+}
+
+
+html{
+    background-color: #D8D8D8;
+    scroll-behavior: smooth;
+}
+
+header h1{
+    text-align: center;
+    color: var(--color-text);
+}
+
+header{
+    background: url(../asset/background.webp)fixed center;
+    background-size: cover;
+    padding: 5rem;
+}
+
+body nav ul li{
+    display: inline-block;
+    padding: 1.3rem;
+    
+}
+body nav{
+    text-align: center;
+    background-color: #61380B;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+body nav ul li a{
+    color: var(--color-text);  
+}
+
+
+
+
+main > section{
+    background-color: var(--color-frame);
+    margin: 10rem auto ;
+    max-width: 70%;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: var(--color-shadow-frame) 0 0 3rem;
+}
+
+main > section > h2{
+    background-color: var(--color-bg-title-frame);
+    color: var(--color-text);
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}
+
+main > section > p{
+    margin-top: 1.5rem;
+}
+
+main > #competences > details{
+    margin-top: 1.5rem;
+}
+
+
+body footer ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+body footer{
+    text-align: center;
+}
