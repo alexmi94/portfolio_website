@@ -19,7 +19,7 @@ h1, h2, h3, h4, p, figure, ul{
     box-sizing: border-box;
 }
 
-a{
+a, summary{
     text-decoration: none;
     color:  #222;
     outline: none;
