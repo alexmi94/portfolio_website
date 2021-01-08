@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log("Load");
 
-    let img = document.querySelector("ul li img");
+    let footer_p = document.querySelector("footer p");
+    footer_p.innerHTML += "&copy; " + new Date().getFullYear() + " -  Alexandre Cance "
 
+    let img = document.querySelector("ul li img");
 
     let button = document.querySelector("ul li img");
     let html = document.querySelector("html");

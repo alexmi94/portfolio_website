@@ -112,6 +112,10 @@ body footer{
     border-top: solid var(--color-bg-title-frame) 1rem;
 }
 
+body footer p{
+    margin: 1rem;
+}
+
 .bookmark:target{
     background: var(--color-target-frame);
 }
@@ -124,4 +128,27 @@ body footer{
 .color_access_title{
     background-color: var(--color-text);
     border-radius: 50%;
+}
+
+
+@media screen and (max-width: 700px){
+
+    main > section{
+        max-width: 95%;
+    }
+
+    body nav ul li{
+        display: block;
+        padding: 1.3rem;
+    }
+
+    body nav li img{
+        margin-bottom: 0rem;
+        margin: 0 auto;
+    }
+
+    body footer ul li{
+        display: block;
+    }
+
 }
