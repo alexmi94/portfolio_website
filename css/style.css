@@ -1,7 +1,10 @@
+
+
 :root{
-    --color-bg-title-frame: #273c75;
+    --color-nav : #3c6382;
+    --color-bg-title-frame: #0a3d62;
     --color-shadow-frame:#A4A4A4;
-    --color-target-frame:#c0392b;
+    --color-target-frame:#b71540;
     --color-frame: #fafafa;
     --color-text: #fafafa;
 }
@@ -26,7 +29,7 @@ body nav li img{
 }
 
 header{
-    background: url(../asset/background.webp)fixed center;
+    background: url(../asset/background.jpg)fixed center;
     background-size: cover;
     padding: 5rem;
 }
@@ -34,11 +37,13 @@ header{
 body nav ul li{
     display: inline-block;
     padding: 1.3rem;
+    font-size: 1.9rem;
+
 }
 
 body nav{
     text-align: center;
-    background-color: #61380B;
+    background-color: var(--color-nav);
 }
 
 
@@ -52,7 +57,7 @@ main > section{
     margin: 10rem auto ;
     max-width: 70%;
     padding: 3rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: var(--color-shadow-frame) 0 0 3rem;
 }
 
@@ -61,10 +66,12 @@ main > section > h2{
     color: var(--color-text);
     border-radius: 1rem;
     padding: .5rem 1rem;
+    line-height: 5.0rem;
 }
 
 main > section > p{
     margin-top: 1.5rem;
+    line-height: 2.6rem;
 }
 
 main > section > details{
@@ -72,7 +79,7 @@ main > section > details{
 }
 
 section details{
-    background-color: #16a085;
+    background-color: #60a3bc;
     border-radius: 1rem;
     padding: 1rem;
     max-width: 100rem;
