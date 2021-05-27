@@ -10,11 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let button = document.querySelector("ul li img");
     let html = document.querySelector("html");
 
-    img.addEventListener("click", e => {
+    img.addEventListener("click",() => {
         console.log("click");
         html.classList.toggle("color_access");
         button.classList.toggle("color_access_title");
-        e.stopPropagation();
     });
 
 });

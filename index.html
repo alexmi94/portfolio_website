@@ -6,31 +6,33 @@
     <meta name="description" content="Portfolio Alexandre Cance">
     <title>Portfolio</title>
     <link rel="icon" type="image/png" href="./asset/">
-    <link rel="stylesheet" href="./css/reset.css">
+
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <header>
-        <h1>Alexandre Cance</h1>
+        <h1>&gt;_Alexandre Cance</h1>
     </header>
     <nav>
         <ul>
             <li><a href="#presentation">Presentation</a></li>
             <li><a href="#competences">Compétences</a></li>
-            <li><a href="#project">Projet Personnel</a></li>
+            <li><a href="#projectbts">Projet BTS</a></li>
+            <li><a href="#projectpersonnel">Projet Personnel</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><img src="./asset/low-vision.svg" alt="accessibilité"></li>
         </ul>
     </nav>
     <main>
         <section>
-            <h2 id="presentation" class="bookmark">Presentation</h2>
-            <p>je m'appelle Alexandre Cance étudiant en 2<sup>ème</sup> année de BTS SIO option SLAM à l'école ITIC Paris.</p>
-            <p>Je suis passioner d'informatique </p>
+            <h2 id="presentation" class="bookmark">&gt;_Presentation</h2>
+            <p>je m'appelle Alexandre Cance étudiant en 2<sup>ème</sup> année de BTS SIO option SLAM à l'école ITIC Paris. <br> 
+                Je suis passioner d'informatique </p>
         </section>
-        <section>
-            <h2 id="competences" class="bookmark">Compétences</h2>
-            <details>
+        <section class="competences">
+            <h2 id="competences" class="bookmark">&gt;_Compétences</h2>
+            <details open>
                 <summary>Langages</summary>
                 <ul>
                     <li>Html/Css</li>
@@ -41,7 +43,7 @@
                     <li>Java</li>
                 </ul>
             </details>
-            <details>
+            <details open>
                 <summary>Logiciel utiliser</summary>
                 <ul>
                     <li>Visual Studio Code</li>
@@ -50,22 +52,33 @@
                 </ul>
             </details>
         </section>
-        <section>
-            <h2  id="project" class="bookmark">Projet Personnel</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Voluptatum incidunt aliquid veritatis ipsa, doloremque natus 
-                explicabo porro et consequuntur atque ullam ipsam, ad sint, 
-                expedita nam unde. Soluta, non eveniet.</p>
+        <section class="projectbts">
+            <h2  id="projectbts" class="bookmark">&gt;_Projet_BTS</h2>
+            <details>
+                <summary>Interface Admin Gestion Client</summary>
+                <h3>Réalisation d'une interface administrateur pour recenser des clients</h3>
+                <p>Ce site admin a pour but de permettre aux administrateurs<br> des Maisons des ligues, de recenser leurs clients.</p>
+                <ul>
+                    <li><a href="https://github.com/alexmi94/ppe_interface_admin_gestion_client" target="_blank" class="github">Github</a> <a href="https://github.com/alexmi94/ppe_interface_admin_gestion_client/blob/main/README.md" target="_blank">Documentation</a></li>
+                    <li><img src="./asset/page_principale.jpg" alt=""></li>
+                    
+                </ul>
+            </details>
         </section>
+
+        <section>
+            <h2  id="projectpersonnel" class="bookmark">&gt;_Projet_Personnel</h2>
+        </section>
+
     </main>
 
     <script src="./js/app.js"></script>
 
     <footer>
-        <h3  id="contact" class="bookmark">Contact</h3>
+        <h3  id="contact" class="bookmark">&gt;_Contact</h3>
         <ul>
             <!--Content info-->
-            <li>Mail : alexandrecance@gmail.com</li>
+            <li>Mail : alexandrecance94@gmail.com</li>
             <li>telephone : +33 6 02 25 56 89</li>
         </ul>
         <p></p>
