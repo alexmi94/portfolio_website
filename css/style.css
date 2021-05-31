@@ -119,6 +119,7 @@ section details{
 .projectbts details ul li img{
     display: block;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 details p{
